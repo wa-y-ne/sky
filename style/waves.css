@@ -1,0 +1,48 @@
+.item {
+    position: absolute;
+    width: 200px;
+    height: 175px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.item-waves {
+    width: 350px;
+    height: 300px;
+    background-color: rgba(0, 152, 255, 0.5);
+    position: absolute;
+    border-radius: 100px;
+    animation: waves infinite;
+    left: -5vw;
+}
+
+.waves1 {
+    top: 14vh;
+    animation-duration: 5s;
+    /* transform: rotate(5deg); */
+}
+
+.waves2 {
+    top: 12vh;
+    background-color: rgba(54, 151, 217, 0.5);
+    animation-duration: 6s;
+}
+
+.waves3 {
+    top: 10vh;
+    background-color: rgba(121, 183, 225, 0.5);
+    animation-duration: 7s;
+}
+
+@keyframes waves {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

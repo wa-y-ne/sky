@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+body {
+    background-color: #0B162C;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #0B162C;
+    padding: 30px;
+  }
+  
+  .sky {
+    margin-right: auto;
+    color: white;
+    text-shadow: #FFF 1px 0 30px;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
+  li {
+    margin-right: 15px;
+  }
+  .il {
+    text-transform: uppercase;
+    color: white;
+  }
+  .il + a {
+    margin-left: 20px;
+  }
+  .il + .il {
+    margin-left: 20px;
+  }
+  .bio {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-15%);
+    text-align: center;
+  }
+  .biocop {
+    display: block;
+    margin-top: 10px;
+  }
+  .tools {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: inline-block;
+  }
+  .imgdist {
+    transform: translate(0%,-7%);
+    vertical-align: middle;
+  }
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+  }
+  .didis {
+    transform: translate(0%,-5%);
+  }
+  .card {
+    background-color: #1C2942;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: left;
+    font-family: 'Fredoka', sans-serif;
+  }
+  .imgcar {
+    height: 140px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .tool1 {
+    margin-left: 30px;
+  }
+  .desc {
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 20%;
+  }
+  .disabled {
+    display: none;
+  }
+  .avai {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+  }
+  /*
+  .spam {
+    margin-bottom: 1000px;
+  }
